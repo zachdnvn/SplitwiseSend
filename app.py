@@ -1,10 +1,8 @@
 # Imports
 import os
-from dotenv import load_dotenv
 from splitwise import Splitwise
 from sms import send
 
-load_dotenv()
 # Splitwise Authorization
 s = Splitwise(os.getenv("KEY1"),os.getenv("KEY2"),api_key=os.getenv("API_KEY"))
 

@@ -1,10 +1,7 @@
 #Imports
 import os
 from twilio.rest import Client
-from dotenv import load_dotenv
 
-load_dotenv()
- 
 account_sid = os.getenv("account_sid") 
 auth_token = os.getenv("auth_token") 
 client = Client(account_sid, auth_token) 
