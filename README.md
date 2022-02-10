@@ -1,5 +1,5 @@
 # SplitwiseSend
-SplitwiseSend sends an SMS reminder to all users in your groups that owe money
+SplitwiseSend sends an SMS reminder to all users in your Splitwise groups that owe money. 
 
 ## How It Works
 Using the Splitwise API, the program cycles through all of your groups and sends a text message through the Twilio API to all users who are in debt
